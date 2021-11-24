@@ -21,14 +21,14 @@ const ChocoSpec = () => {
             <h2 
             id='pains-speciaux'
             className='d-flex justify-content-center mt-4'>
-            LES CHOCOLATS RÉALISÉS À LA BOULANGERIE DU ER</h2>
+            LES CHOCOLATS RÉALISÉS À LA BOULANGERIE D'YMARE</h2>
             <hr/> 
       
 
        
             <p className=' d-flex justify-content-center 
             align-content-center align-items-center'> 
-            Le Er, artisan boulanger-pâtissier, a réalisé un chocolat sur mesure en faisant assembler différentes <br/>
+            Notre boulanger, artisan boulanger-pâtissier, a réalisé un chocolat sur mesure en faisant assembler différentes <br/>
             origines de chocolats par notre fournisseur Cacao Barry. Ce mélange unique, également utilisé dans certaines<br/>
              de nos pâtisseries, compose les bonbons au chocolat que vous trouverez en magasin.
              <br/><br/>
