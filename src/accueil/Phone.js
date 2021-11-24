@@ -26,7 +26,7 @@ const Phone = () => {
         </svg>
         </a>
 
-        <a href=https://www.instagram.com/boulangerie_ovide/" 
+        <a href="https://www.instagram.com/boulangerie_ovide/" 
         target="_blank" rel='noreferrer'> 
 
         <svg xmlns="http://www.w3.org/2000/svg" width="16" 
