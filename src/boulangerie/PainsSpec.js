@@ -32,7 +32,7 @@ const PainsSpec = () => {
             grandes occasions ou simplement de varier les saveurs.
             <br/> 
             Les pains suivants sont actuellement disponibles dans notre 
-             boulangerie du Er :
+             boulangerie d'Ymare :
              </p>
 
             
