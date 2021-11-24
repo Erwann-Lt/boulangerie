@@ -27,7 +27,7 @@ const PatExclu = () => {
             <p className=' d-flex justify-content-center 
             align-content-center align-items-center'> 
             Venez goûter nos créations originales, conçues par notre artisan
-             pâtissier le Er et ses équipes.
+             pâtissier et ses équipes.
             <br/> 
             
              </p>
