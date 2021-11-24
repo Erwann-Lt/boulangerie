@@ -6,8 +6,8 @@ const AnyReactComponent = ({ text }) => <div>{text}</div>;
 class Map extends Component {
   static defaultProps = {
     center: {
-      lat: 48.44979219124231, 
-      lng: -4.255837655470543
+      lat: 49.35016492729376, 
+      lng: 1.176577447570724
        
     },
     zoom: 11
@@ -23,9 +23,9 @@ class Map extends Component {
           defaultZoom={this.props.zoom}
         >
           <AnyReactComponent
-            lat={48.44979219124231}
-            lng={-4.255837655470543}
-            text="La Boulangerie du Er"
+            lat={49.35016492729376}, 
+            lng={1.176577447570724}
+            text="La Boulangerie d'Ymare"
             
           />
         </GoogleMapReact>
