@@ -8,7 +8,7 @@ const Description = () => {
     return (
         <div >
             <br/>
-        <h2 className='d-flex justify-content-center mt-4'>La boulangerie du Er c'est</h2>
+        <h2 className='d-flex justify-content-center mt-4'>La boulangerie d'Ymare c'est</h2>
         <hr />
         
         <div class='choice'>
