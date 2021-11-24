@@ -3,7 +3,7 @@ import React from 'react'
 const Coordonnees = () => {
     return (
         <div className='coordonnees'>
-            <h4>BOULANGERIE-PÂTISSERIE D'YMARE</h4>
+            <h4>BOULANGERIE D'YMARE</h4>
             <p>464 grande rue</p>
             <p> 76520 YMARE</p>
              
