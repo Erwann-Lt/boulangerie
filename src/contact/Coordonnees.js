@@ -4,11 +4,11 @@ const Coordonnees = () => {
     return (
         <div className='coordonnees'>
             <h4>BOULANGERIE-PÂTISSERIE DU ER</h4>
-            <p>29800</p>
-            <p> LANDERNEAU</p>
+            <p>464 grande rue</p>
+            <p> 76520 YMARE</p>
              
             <h5>Téléphone</h5>
-            <p>07 -- -- -- --</p>
+            <p>02 27 76 24 70</p>
              
             <h5>Horaires</h5>
             <h6>Du mardi au vendredi :</h6>
