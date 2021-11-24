@@ -23,7 +23,7 @@ class Map extends Component {
           defaultZoom={this.props.zoom}
         >
           <AnyReactComponent
-            lat={49.35016492729376}, 
+            lat={49.35016492729376}
             lng={1.176577447570724}
             text="La Boulangerie d'Ymare"
             
