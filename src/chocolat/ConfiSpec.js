@@ -27,7 +27,7 @@ const ConfiSpec = () => {
             <p className=' d-flex justify-content-center 
             align-content-center align-items-center'> 
             Découvrez nos confiseries maison ! Vous trouverez
-             dans notre Boulangerie du Er des bonbons de caramel 
+             bien des choses dans notre boulangerie, des bonbons de caramel 
              mou et des tablettes de praliné <br/>
               maison, des pâtes 
             de fruits, des guimauves, réalisés maison par nos équipes.
