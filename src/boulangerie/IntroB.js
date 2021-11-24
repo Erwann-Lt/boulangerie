@@ -8,7 +8,7 @@ const IntroB = () => {
             FAITS MAISON</h2>
             <hr/> 
             <p>Tous les pains, baguettes et viennoiseries que nous proposons<br/> 
-             à la Boulangerie du Er sont pétris et cuits sur place.<br/> 
+             à la Boulangerie d'Ymare sont pétris et cuits sur place.<br/> 
               Certaines recettes sont uniques, élaborées par nos artisans boulangers.
               <br/> <br/> 
 
