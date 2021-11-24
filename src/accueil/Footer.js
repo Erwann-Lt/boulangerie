@@ -13,10 +13,10 @@ const Footer = () => {
         
             
             <div className='footertext'>
-                <h4> BOULANGERIE-PÂTISSERIE DU ER</h4>
-                <p>29800</p>
-                <p> LANDERNEAU</p>
-                <p>07 -- -- -- --</p>
+                <h4> BOULANGERIE-PÂTISSERIE D'YMARE</h4>
+                <p>464 grande rue</p>
+                <p> 76520 YMARE</p>
+                <p>02 27 76 24 70</p>
                 <br/>
                 <h4>Contact</h4>
                 <Link to='/contact' className='text-link'><p>Envoyez-nous un message</p></Link>
