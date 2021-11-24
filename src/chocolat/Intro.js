@@ -6,7 +6,7 @@ const Intro = () => {
            <h2>CHOCOLATERIE CONFISERIE</h2>
             <hr/> 
             <p>Découvrez les différents chocolats et confiseries maison <br/>
-             réalisés dans notre Boulangerie du Er ! <br/>
+             réalisés dans notre boulangerie! <br/>
              <br/>
 
             Au chocolat au lait, au chocolat noir, ces créations sont<br/>
