@@ -61,7 +61,7 @@ function scrollClickz() {
         </svg>  
         <h3 className='d-flex justify-content-center flex-center flex-column align-items-center align-content-center'>« Venez découvrir plus de pains, viennoiseries, pâtisseries, chocolats et confiseries dans 
         <br/></h3>
-        <h3 className='d-flex mb-4 justify-content-center flex-center flex-column align-items-center align-content-center'>notre boulangerie du Er ! »</h3>
+        <h3 className='d-flex mb-4 justify-content-center flex-center flex-column align-items-center align-content-center'>notre boulangerie d'Ymare ! »</h3>
         </div>
         
         
