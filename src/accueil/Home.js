@@ -15,7 +15,7 @@ const Home = () => {
         <div className='container d-flex bread'>
 
          <div className='texto'>
-         <h1>La boulangerie  <br/> du Er </h1>
+         <h1>La boulangerie  <br/> d'Ymare</h1>
          
          <br/>          
           
@@ -31,8 +31,8 @@ const Home = () => {
         <h2 className='d-flex justify-content-center mt-4'>PAINS, PÂTISSERIES ET VIENNOISERIES 100% FAITS MAISON</h2>
         <hr />
         <p className='paragraph'>
-        Erwann, artisan boulanger-pâtissier-chocolatier, 
-        a fondé la Boulangerie du Er pour vous proposer le meilleur de son 
+        Cette nouvelle boulangerie-pâtisserie-chocolaterie, 
+       est dorénavant là pour vous proposer le meilleur de son 
         savoir-faire, à </p>
         <p className='paragraph'> travers ses produits 100% faits maison. Avec 12 ans 
         d’expérience en boulangerie pâtisserie et des expériences 
