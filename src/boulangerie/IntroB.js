@@ -2,8 +2,8 @@ import React from 'react'
 
 const IntroB = () => {
     return (
-        <div>
-           <h2>BOULANGERIE : <br/>
+        <div className='introBoul'>
+           <h2 className='h2boul'>BOULANGERIE : <br/>
             DES PAINS CLASSIQUES ET SPÉCIAUX <br/>
             FAITS MAISON</h2>
             <hr/> 
