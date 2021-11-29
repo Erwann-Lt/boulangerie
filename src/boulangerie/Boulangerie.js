@@ -37,7 +37,8 @@ function scrollClickz() {
         <div className='introb' >  
         <IntroB />
         <img src='https://www.boulangerie-ymare.fr/wp-content/uploads/2019/10/boulangerie_intro.jpg'
-        alt='introBread'/>
+        alt='introBread'
+        className='imgBoul'/>
          
         </div>
         <br ref={painsref}  /><br /><br /><br  /> 
