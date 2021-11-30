@@ -1,9 +1,11 @@
 import React  from 'react'
 import dataClassique from './dataClassique'
- 
+import useWindowSize from '../useWindowSize'
+
 
 const PatClassique = () => {
-    
+         const { width } = useWindowSize();
+
     const data= dataClassique.map(classi=>(
         <div className='d-flex col-sm-4 gri'>
                 <img src={classi.image} alt="photos"className='imgspec'/>
@@ -23,11 +25,14 @@ const PatClassique = () => {
             className='d-flex justify-content-center mt-4'>
             NOS PÂTISSERIES CLASSIQUES</h2>
             <hr/> 
-      
+
+          
 
             <div className='d-flex row'>
+            
+            
             <div className='col-6'>
-            <p className=' d-flex 
+             <p className=' d-flex 
             align-content-center align-items-center '> 
             Parmi nos pâtisseries à la part ou à partager, vous trouverez en vitrine :
             <br/></p>
@@ -41,8 +46,11 @@ const PatClassique = () => {
                 <li>différentes saveurs de macarons</li>
             </ul></p>
             </div>
+      
+           
+         
             
-
+            {width > 650 &&
             <div className='col d-flex patext'>
             <p>
             <br/><br/>
@@ -53,7 +61,7 @@ const PatClassique = () => {
             profiteroles.<br/><br/> 
 
             Les pâtisseries au chocolat sont pour la plupart réalisées avec <br/>
-            le chocolat exclusif réalisé par notre artisan pâtissier le Er. <br/>
+            le chocolat exclusif réalisé par notre artisan pâtissier. <br/>
             Cet assemblage de fèves de cacao a été sélectionné et conçu sur <br/>
             mesure avec 
             notre fournisseur Cacao Barry. Ceci apporte une <br/>
@@ -62,9 +70,9 @@ const PatClassique = () => {
             <br/><br/>
              </p>
             </div>
-            </div>
-            
-            
+           
+            }
+             </div>
 
             
             <div className='row'>
