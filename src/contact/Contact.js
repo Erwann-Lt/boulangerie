@@ -2,23 +2,35 @@ import React from 'react'
 import Coordonnees from './Coordonnees'
 import Form from './Form'
 import Map from './Map'
- 
+import useWindowSize from '../useWindowSize'
+
+
  
 const Contact = () => {
+    const { width } = useWindowSize();
+
     return (
-        <div>  
+        <div className='contact'>  
         
         <h2 className='d-flex justify-content-center mt-4'>
         CONTACTEZ-NOUS</h2>
         <hr />
         
+        {width < 650 ?
         
+        <div>
+        <h2 className='  paddingg'>Laissez-nous un message</h2><br/>
+        </div>
+
+        :
+
+
         <div className='d-flex rows'>
         
         <div className='col-8'>
         <br/>
           
-        <h2 className='  paddingg'>Laissez-nous un message</h2><br/>
+        
         <h4 className='introb'>Veuillez remplir le formulaire<br/>
         de contact ci-dessous.</h4><br/>
         <p className='introb'>Notre équipe est disponible <br/>
@@ -34,6 +46,8 @@ const Contact = () => {
         />
         </div>
         </div>
+        }
+        
 
         <div className='d-flex justify-content-center'>
         
