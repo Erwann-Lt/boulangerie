@@ -1,8 +1,15 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import useWindowSize from '../useWindowSize'
+
 const Footer = () => {
+    const { width } = useWindowSize();
+
+    const footHeight = width <650 ? 250 : 500
     return (
-        <div className=' footer'>
+        <div className=' footer'
+        style={{height:footHeight}}
+        >
             
             <div className='logofooter'>
             <Link to='/'>
@@ -22,7 +29,7 @@ const Footer = () => {
                 <Link to='/contact' className='text-link'><p>Envoyez-nous un message</p></Link>
             </div>
             
-            <div className='footertext'>
+            {width < 650 ? null :  <div className='footertext'>
                 <h4> Horaires</h4>
                 <h5>Du mardi au vendredi :</h5>
                 <p>06h30-13h00 et 15h00-19h30</p>
@@ -30,7 +37,9 @@ const Footer = () => {
                 <p>07h00-13h00 et 15h00-19h30</p>
                 <h5>Dimanche et jours fériés :</h5>
                 <p>07h00-13h00</p>
-            </div>
+            </div>}
+            
+           
          
         </div>
     )
