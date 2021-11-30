@@ -1,13 +1,22 @@
 import React from 'react'
+import useWindowSize from '../useWindowSize'
 
 const IntroB = () => {
+
+    const { width } = useWindowSize();
     return (
         <div className='introBoul'>
            <h2 className='h2boul'>BOULANGERIE : <br/>
             DES PAINS CLASSIQUES ET SPÉCIAUX <br/>
             FAITS MAISON</h2>
             <hr/> 
-            <p>Tous les pains, baguettes et viennoiseries que nous proposons<br/> 
+            {width < 650 ?
+                <p>Tous les pains, baguettes et viennoiseries que nous proposons<br/> 
+             à la Boulangerie d'Ymare sont pétris et cuits sur place.<br/> 
+              Certaines recettes sont uniques, élaborées par nos artisans boulangers.
+                </p>
+              :
+              <p>Tous les pains, baguettes et viennoiseries que nous proposons<br/> 
              à la Boulangerie d'Ymare sont pétris et cuits sur place.<br/> 
               Certaines recettes sont uniques, élaborées par nos artisans boulangers.
               <br/> <br/> 
@@ -29,6 +38,9 @@ const IntroB = () => {
           Le pain est cuit tout au long de la journée pour <br/> 
           vous assurer du pain frais 
           quelle que soit l’heure de votre passage.</p>
+            }
+
+            
         </div>
     )
 }
